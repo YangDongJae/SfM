@@ -37,6 +37,7 @@ pip install opencv-python numpy matplotlib scikit-learn
 ```
 
 2. opperation command 
+move to step1~5 directory and 
 ```bash
 python main.py --img_dir ./images --K_path ./K.txt
 ```
@@ -109,6 +110,7 @@ pip install opencv-python numpy matplotlib scikit-learn
 ```
 
 2. 실행 명령어: 
+step1~5디렉토리로 이동 후 
 ```bash
 python main.py --path ./images --image_num 10 --output_name result --mode clean --device cpu
 ```
