@@ -8,16 +8,16 @@ Key features of this pipeline include:
 
 
 The pipeline is modularized into the following components:
-
+```bash
 main.py
 ├── calls: sfm_origin.py
 │   └── uses: utils.py
 ├── input: image directory + camera intrinsic matrix (K.txt)
 ├── output: camera poses, 3D point cloud, PLY files
-
+```
 
 Project Structure 
-
+```bash
 project_root/
 ├── main.py
 ├── sfm_origin.py
@@ -27,6 +27,7 @@ project_root/
 │   ├── 0000.JPG
 │   ├── 0001.JPG
 │   └── ...
+```
 
 RUN METHODS
 
@@ -77,14 +78,16 @@ The `main.py` script includes several command-line arguments to control the SfM 
 ---
 
 ### 🔁 시스템 구성도
+```bash
 main.py
 ├── calls: sfm_origin.py
 │   └── uses: utils.py
 ├── input: image directory + camera intrinsic matrix (K.txt)
 ├── output: camera poses, 3D point cloud, PLY files
+```
 
 ---
-
+```bash
 ### 📂 프로젝트 구조
 project_root/
 ├── main.py
@@ -95,7 +98,7 @@ project_root/
 │   ├── 0000.JPG
 │   ├── 0001.JPG
 │   └── …
-
+```
 ---
 
 ### 🚀 실행 방법
